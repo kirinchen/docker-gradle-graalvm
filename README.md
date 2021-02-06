@@ -8,7 +8,7 @@ Gradle can compile graalvm project in docker , ex : polyglot
 
 The docker images page : https://hub.docker.com/repository/docker/kirinddt/gradle-graalvm
 
-docker cmd: kirinddt/gradle-graalvm:latest 
+docker cmd: ```kirinddt/gradle-graalvm:latest ```
 
 ## example
 
