@@ -1,4 +1,4 @@
-FROM springci/graalvm-ce:master-java11
+FROM springci/graalvm-ce:20.3-dev-java11
 
 CMD ["gradle"]
 
@@ -49,4 +49,6 @@ RUN set -o errexit -o nounset \
     \
     && echo "Testing Gradle installation" \
     && gradle --version
+	
+
 
