@@ -1,4 +1,4 @@
-FROM springci/graalvm-ce:20.3-dev-java11
+FROM springci/graalvm-ce:java17-0.11.x
 
 CMD ["gradle"]
 
